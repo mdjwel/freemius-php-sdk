@@ -12,9 +12,10 @@
  * 3. Run the tests using PHPUnit:
  *    vendor/bin/phpunit
  */
+
 use PHPUnit\Framework\TestCase;
 
-class GetLicenseDataTest extends TestCase
+class GetLicenseData extends TestCase
 {
     public function testLicenseData()
     {
